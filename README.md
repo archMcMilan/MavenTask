@@ -1,9 +1,9 @@
 #Task:  
-  -Create project with exec plugin.  
-  -Main class should work with parameters.  
-  -Write command examples for maven to run project.  
-  -Create build profile that will turn on exec plugin.  
-  -Use property to specify main class.
+  - Create project with exec plugin.  
+  - Main class should work with parameters.  
+  - Write command examples for maven to run project.  
+  - Create build profile that will turn on exec plugin.  
+  - Use property to specify main class.
   
 #Guide:  
 
