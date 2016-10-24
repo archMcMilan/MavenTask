@@ -9,7 +9,7 @@
 
 Exec plugin here is set to <b>'install'</b> phase.  
 To run exec plugin with default settings from .pom file, choose <b>execution</b> profile:  
->test -P execution  
+>mvn clean install -P execution  
   
 To change main class and arguments:    
->test -P execution -Dexec.main=ua.tasks.ap.AppRunner2 -Dexec.args="'hello' 'world'"
+>mvn clean install -P execution -Dexec.main=ua.tasks.ap.AppRunner2 -Dexec.args="'hello' 'world'"
