@@ -5,7 +5,7 @@
   - Create build profile that will turn on exec plugin.  
   - Use property to specify main class.
   
-#Guide1:  
+#Command line1:  
 
 Exec plugin here is set to <b>'install'</b> phase.  
 To run exec plugin with default settings from .pom file, choose <b>execution</b> profile:  
@@ -21,7 +21,7 @@ To change main class and arguments:
   - Create profile to run build with ITests, only ITests.  
   - Use maven properties to configure ITest name convention.
   
-#Guide2:  
+#Command line2:  
 
 To run all test - use profile <b>testingAll</b> or just default profile
 >mvn clean test -P testingAll
