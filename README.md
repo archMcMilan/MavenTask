@@ -13,7 +13,8 @@ To run exec plugin with default settings from .pom file, choose <b>execution</b>
   
 To change main class and arguments:    
 >mvn clean install -P execution -Dexec.main=ua.tasks.ap.AppRunner2 -Dexec.args="'hello' 'world'"
-------------------------------------------------------------------------------------------------------------------------------------------
+
+
 #Task2:  
   - Create project with 2 types of test - ITest and simple test.  
   - Configure maven to run build without ITests.  
