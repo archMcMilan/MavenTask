@@ -21,7 +21,6 @@ To change main class and arguments:
   - Use maven properties to configure ITest name convention.
   
 #Guide2:  
-#Guide:  
 
 To run all test - use profile <b>testingAll</b> or just default profile
 >mvn clean test -P testingAll
