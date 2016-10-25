@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                   http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+
+    <changeSet id="in1" author="artem.pryzhkov">
+        <comment>Insert data into post</comment>
+        <insert tableName="post">
+            <column name="post_name" value="ceo"/>
+            <column name="salary" value="100"/>
+        </insert>
+        <insert tableName="post">
+            <column name="post_name" value="senior"/>
+            <column name="salary" value="80"/>
+        </insert>
+    </changeSet>
+
+    <changeSet id="in2" author="artem.pryzhkov">
+        <comment>Insert data into employee</comment>
+        <insert tableName="flower">
+            <column name="firstname" value="artem"/>
+            <column name="lastname" value="pryzhkov"/>
+            <column name="post_name" value="senior"/>
+        </insert>
+        <insert tableName="flower">
+            <column name="firstname" value="ivan"/>
+            <column name="lastname" value="ivanov"/>
+            <column name="post_name" value="ceo"/>
+        </insert>
+    </changeSet>
+
+</databaseChangeLog>
